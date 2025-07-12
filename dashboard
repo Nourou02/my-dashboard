@@ -1,0 +1,6 @@
+df = pd.DataFrame({
+    "Fruit": ["Pommes", "Oranges", "Bananes", "Poires"],
+    "Quantité": [10, 15, 7, 12]
+})
+
+fig = px.bar(df, x="Fruit", y="Quantité", title="Quantité de fruits")
